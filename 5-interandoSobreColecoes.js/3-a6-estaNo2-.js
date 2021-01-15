@@ -1,0 +1,1 @@
+//esta tudo no arquivo 2 while.js
