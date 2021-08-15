@@ -33,7 +33,7 @@ function convertTohex(cor1){
           hexa = '#FF0000';
           break;
         case 'blue':
-          hexa = '#0000FF';
+          hexa =  '#0000FF';
           break;
         case 'green':
           hexa = '#00FF00';
