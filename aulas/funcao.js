@@ -37,12 +37,59 @@ function b1 (arg) {
 }
 console.log(b1(arr))
 */
+/*
 function sum(){
     return 1 + 2;
 }
 console.log( sum());
+
+
 var sum2 = function (){
  return 3 + 2;
 }
 console.log( sum2());
-var sum3 
+
+
+var sum3 = function otherSum(){
+    return 5 + 8;
+} 
+console.log(sum3() );
+console.log("");
+
+
+(function (){
+    console.log( 1 + 2 );
+})();
+
+//CONSVERSORE - SEM new (CONVERTEM O TIPO)
+
+var  name = 'Luiz Felipe';
+console.log(name.length)
+
+//CONSTRUTORES
+//TODO NEW RETORNA UM CLASE 
+var  name = new String('Luiz Felipe');
+
+console.log(name.valueOf()); //VOLTA O VALOR QUE EU ESTOU PASASANDO
+console.log(name.length); //VOLTA A GUANTIDADE DE CARACTER
+
+
+console.log(typeof 1);
+console.log(typeof 'null');
+console.log(typeof []);
+console.log(typeof {});
+console.log(typeof function(){});
+console.log(typeof undefined);
+console.log(typeof null);
+
+todo
+*/
+var car = {
+    brand:'vm',
+    model: 'gol',
+    year: 2013
+}
+for(var prop in car ) {
+    console.log( prop );
+}
+
