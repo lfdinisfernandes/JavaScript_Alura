@@ -1,28 +1,54 @@
+(function(win, doc){
+    'use strict'
 
-//.length --conta quantas letras tem na strings
-//console.log("luiz felipe".length);
-/**/
-var lu = new String('Luiz Felipe');
-console.log(lu.length);
-//11 letras
+    var $inputUsername = doc.querySelector('#username');
+    var $inputPassword = doc.querySelector('#password');
+    var $button = doc.querySelector('#button');
 
+    $button.addEventListener('click', function(event){
+        event.preventDefault();
+        console.log('Click no botão')
+    },false);
+
+    document.addEventListener('click', function(){
+        alert( 'clicou no input')
+    }, false);
+
+})(window, document);
+
+
+
+
+
+
+
+
+
+
+
+
+//-------123-----------
+//var $inputs = doc.querySelector('#username');
+//var $inputs = doc.querySelector('[name="nome-do-campo" ]');
+//var $inputs = doc.querySelector('.class');
 /*
-console.log('luizfelipe'.charAt(5));
-console.log('luizfelipe'[5]);
-//e 'letra no arrays'  
-*/
-lu.indexOf('e')
-//5 do começo para o fim pega a string
-lu.lastIndexOf('e');
-//9  de tras pra frente pega a string
+    $inputUsername.value = "Luiz Felipe Dinis Fernandes";
+    $inputPassword.value = "minhasenha";
 
-(function() {
-    'use strict';
-    var obj = {
-        prop1: 'prop1',
-        prop2: 'prop2',
-        prop3: 'prop3'
-    }
-    console.log(delete obj.prop1, obj);
-    console.log('luiz felipe'.length)
-}) ();
+
+    console.log( $inputUsername.Value, $inputPassword.value );
+*/
+
+// -----------122-------------
+//  console.log(doc.getElementsByTagName('input') ) pega quantos <input>
+//  console.log(doc.getElementsByclassName('a') ) pega todas <class> = a
+//  console.log(doc.getElementById('my-link') ) pega uma id <a></a>
+/*
+    var name = prompt('qual o seu nome ? ');
+    if (name)
+        console.log('Olá ', name);
+    else
+    console.log('não respondeu :(');
+
+    console.log('sempre');
+    */
