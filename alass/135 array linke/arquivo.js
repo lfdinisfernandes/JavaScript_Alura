@@ -9,7 +9,7 @@
     }
     myFunction();
 })();
-
+// forEach ele percorre todo o meu arry [1,2,3,4] e ele passa pro paramento da função 
 
 
 /*
