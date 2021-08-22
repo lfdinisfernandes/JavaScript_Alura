@@ -1,3 +1,15 @@
+(function() {
+    'use strict'
+
+    function myFunction(a, b, c){
+
+    }
+    console.log( myFunction.length );
+
+})();
+
+
+
 /* 
 (function(win, doc) {
     'use strict'
