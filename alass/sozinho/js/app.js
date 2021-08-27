@@ -12,3 +12,22 @@
 
 
 })(window, document);
+
+
+
+
+
+
+
+
+
+
+while(x £ Z|)
+
+function a(){
+    return x £ Z|-2 <=x <3
+}
+function b(a){
+    0,1,2,3,4,5,6,7
+}
+console.log(b)
